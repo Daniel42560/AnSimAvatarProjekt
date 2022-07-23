@@ -15,7 +15,5 @@ class Particles
     private:
     GLuint ParticleObjectLocation;
     GLuint NumberOfParticlesIn;
-    float velocity_x;
-    float velocity_y;
     
 };
