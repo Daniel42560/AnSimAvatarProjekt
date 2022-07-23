@@ -6,14 +6,12 @@
 #include <CG1_Tools/CVK_ShaderSet.h>
 #include <CG1_Tools/CompatibilityTools.h>
 #include <CG1_Tools/ShaderTools.h>
-
+#include <vector>
 #include <iostream>
 #include "Particles.h"
 
 const int width = 1000;
 const int height = 800;
-std::vector<glm::vec3> velocity;
-std::vector<glm::vec3> acceleration;
 float dt = 0.005f;
 
 const int numberOfParticles = 1000;
@@ -53,14 +51,7 @@ int main() {
     GLint t = glGetUniformLocation(shaderProgram.getProgramID(), "time");
     
     //------------------------------------------------------------------------------------------------------//
-
-    // Initialize Velocity -------------------------------------------------------------------------------------
-
-    for(size_t i = 0; i < numberOfParticles; i++)
-    {
-        std::vector<float> vec3(5.0f,0.0f,0.0f);
-        
-    }
+     
 
     // renderloop
     while (!glfwWindowShouldClose(window)) {

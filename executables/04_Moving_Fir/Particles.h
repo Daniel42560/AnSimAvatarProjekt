@@ -11,9 +11,13 @@ class Particles
     public:
     void createParticles(GLuint numberOfParticles);
     void render();
+    void calcParticlePosition();
 
     private:
     GLuint ParticleObjectLocation;
     GLuint NumberOfParticlesIn;
-    
+    std::vector<GLfloat> ParticlePositionNew;
+    std::vector<GLfloat> ParticlePositionOld;
+    std::vector<GLfloat> velocity;
+    float dt;
 };
