@@ -1,0 +1,91 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "02_Dragon_Fractal::@a2debf4c769bac6e4e71"
+		},
+		{
+			"id" : "03_LineClipping::@d3d796571283fbbc4b96"
+		},
+		{
+			"id" : "04_MovingThingsPractice::@305f0ccb70d0f204b17c"
+		},
+		{
+			"id" : "04_Moving_Fir::@d9c831dfb220e29aef74"
+		},
+		{
+			"id" : "05_Transform::@2e43785f2ee231391587"
+		},
+		{
+			"id" : "09_Texture_Example::@ee3c6c0812cf20911e79"
+		},
+		{
+			"id" : "06_Graph::@0db87afa82badba48118"
+		},
+		{
+			"id" : "09_Transparency_Example::@cf0e8b1aacd728a1403d"
+		},
+		{
+			"id" : "10_BezierSurface_Example::@6feabec8620a5a8f718e"
+		},
+		{
+			"id" : "08_Toon_Example::@46dd60e10f4ef9e2a4e5"
+		},
+		{
+			"id" : "07_PerspectiveViewport::@12620dc2193efa3fa4bd"
+		},
+		{
+			"id" : "stb::@19cbcdf8865f09af2779"
+		},
+		{
+			"id" : "CG1_Tools::@78f0ef91947189c333fb"
+		},
+		{
+			"id" : "CVK_1_Minimal::@0c512b40e2b970e1530a"
+		},
+		{
+			"id" : "SimpleImage::@c7c7fb059fa7045ee7e6"
+		},
+		{
+			"id" : "glad::@74ca6b3581f0d7366b1f"
+		},
+		{
+			"id" : "glfw::@bae8f2c06706af8a0c0f"
+		},
+		{
+			"id" : "11_SunEarthMoon_Example::@dc04e307d63d1917e37f"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
