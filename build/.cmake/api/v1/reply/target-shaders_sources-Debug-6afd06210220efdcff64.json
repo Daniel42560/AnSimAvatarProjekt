@@ -1,0 +1,262 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"shaders/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "shaders_sources::@8132085bf3b90c3252db",
+	"name" : "shaders_sources",
+	"paths" : 
+	{
+		"build" : "shaders",
+		"source" : "shaders"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "04_Moving_Fir\\Vertex-Shaders",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "05_Transform\\Vertex-Shaders",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "06_Graph\\Vertex-Shaders",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		},
+		{
+			"name" : "07_PerspectiveViewport\\Vertex-Shaders",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		},
+		{
+			"name" : "08_Toon_Example\\Vertex-Shaders",
+			"sourceIndexes" : 
+			[
+				4
+			]
+		},
+		{
+			"name" : "09_TexturedCube\\Vertex-Shaders",
+			"sourceIndexes" : 
+			[
+				5
+			]
+		},
+		{
+			"name" : "09_Transparency\\Vertex-Shaders",
+			"sourceIndexes" : 
+			[
+				6
+			]
+		},
+		{
+			"name" : "10_BezierSurface\\Vertex-Shaders",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		},
+		{
+			"name" : "11_Hierarchy\\Vertex-Shaders",
+			"sourceIndexes" : 
+			[
+				8
+			]
+		},
+		{
+			"name" : "04_Moving_Fir\\Fragment-Shaders",
+			"sourceIndexes" : 
+			[
+				9
+			]
+		},
+		{
+			"name" : "05_Transform\\Fragment-Shaders",
+			"sourceIndexes" : 
+			[
+				10
+			]
+		},
+		{
+			"name" : "06_Graph\\Fragment-Shaders",
+			"sourceIndexes" : 
+			[
+				11
+			]
+		},
+		{
+			"name" : "07_PerspectiveViewport\\Fragment-Shaders",
+			"sourceIndexes" : 
+			[
+				12
+			]
+		},
+		{
+			"name" : "08_Toon_Example\\Fragment-Shaders",
+			"sourceIndexes" : 
+			[
+				13
+			]
+		},
+		{
+			"name" : "09_TexturedCube\\Fragment-Shaders",
+			"sourceIndexes" : 
+			[
+				14
+			]
+		},
+		{
+			"name" : "09_Transparency\\Fragment-Shaders",
+			"sourceIndexes" : 
+			[
+				15
+			]
+		},
+		{
+			"name" : "10_BezierSurface\\Fragment-Shaders",
+			"sourceIndexes" : 
+			[
+				16
+			]
+		},
+		{
+			"name" : "11_Hierarchy\\Fragment-Shaders",
+			"sourceIndexes" : 
+			[
+				17
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "shaders/04_Moving_Fir/fir.vert",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/05_Transform/minimal.vert",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/06_Graph/graph.vert",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/07_PerspectiveViewport/depth.vert",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/08_Toon_Example/toon.vert",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/09_TexturedCube/cube.vert",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/09_Transparency/minimal.vert",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/10_BezierSurface/patch.vert",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/11_Hierarchy/phong.vert",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/04_Moving_Fir/fir.frag",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/05_Transform/minimal.frag",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/06_Graph/graph.frag",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/07_PerspectiveViewport/depth.frag",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/08_Toon_Example/toon.frag",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/09_TexturedCube/cube.frag",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/09_Transparency/minimal.frag",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/10_BezierSurface/patch.frag",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/11_Hierarchy/phong.frag",
+			"sourceGroupIndex" : 17
+		}
+	],
+	"type" : "UTILITY"
+}

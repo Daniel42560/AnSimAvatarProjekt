@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{024EEEB5-4FF6-390E-8C7A-80FDBEB11B46}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\cvws2122\framework\CG_allgroups\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/cvws2122/framework/CG_allgroups/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/cvws2122/framework/CG_allgroups/src -BD:/cvws2122/framework/CG_allgroups/src/build --check-stamp-file D:/cvws2122/framework/CG_allgroups/src/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\3.22.0-rc2\CMakeCCompiler.cmake;D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\3.22.0-rc2\CMakeCXXCompiler.cmake;D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\3.22.0-rc2\CMakeRCCompiler.cmake;D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\3.22.0-rc2\CMakeSystem.cmake;D:\cvws2122\framework\cmake\ProjectSetup.cmake;D:\cvws2122\framework\cmake\macros.cmake;D:\cvws2122\framework\cmake\projectDefaultsPre.cmake;D:\cvws2122\framework\cmake\projectTools.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/cvws2122/framework/CG_allgroups/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/cvws2122/framework/CG_allgroups/src -BD:/cvws2122/framework/CG_allgroups/src/build --check-stamp-file D:/cvws2122/framework/CG_allgroups/src/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\3.22.0-rc2\CMakeCCompiler.cmake;D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\3.22.0-rc2\CMakeCXXCompiler.cmake;D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\3.22.0-rc2\CMakeRCCompiler.cmake;D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\3.22.0-rc2\CMakeSystem.cmake;D:\cvws2122\framework\cmake\ProjectSetup.cmake;D:\cvws2122\framework\cmake\macros.cmake;D:\cvws2122\framework\cmake\projectDefaultsPre.cmake;D:\cvws2122\framework\cmake\projectTools.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/cvws2122/framework/CG_allgroups/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/cvws2122/framework/CG_allgroups/src -BD:/cvws2122/framework/CG_allgroups/src/build --check-stamp-file D:/cvws2122/framework/CG_allgroups/src/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\3.22.0-rc2\CMakeCCompiler.cmake;D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\3.22.0-rc2\CMakeCXXCompiler.cmake;D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\3.22.0-rc2\CMakeRCCompiler.cmake;D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\3.22.0-rc2\CMakeSystem.cmake;D:\cvws2122\framework\cmake\ProjectSetup.cmake;D:\cvws2122\framework\cmake\macros.cmake;D:\cvws2122\framework\cmake\projectDefaultsPre.cmake;D:\cvws2122\framework\cmake\projectTools.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/cvws2122/framework/CG_allgroups/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/cvws2122/framework/CG_allgroups/src -BD:/cvws2122/framework/CG_allgroups/src/build --check-stamp-file D:/cvws2122/framework/CG_allgroups/src/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\3.22.0-rc2\CMakeCCompiler.cmake;D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\3.22.0-rc2\CMakeCXXCompiler.cmake;D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\3.22.0-rc2\CMakeRCCompiler.cmake;D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\3.22.0-rc2\CMakeSystem.cmake;D:\cvws2122\framework\cmake\ProjectSetup.cmake;D:\cvws2122\framework\cmake\macros.cmake;D:\cvws2122\framework\cmake\projectDefaultsPre.cmake;D:\cvws2122\framework\cmake\projectTools.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\cvws2122\framework\CG_allgroups\src\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\ZERO_CHECK.vcxproj">
+      <Project>{C0EAAE8C-E101-31D7-872F-BD2E738B5BF6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\02_Dragon_Fractal\02_Dragon_Fractal.vcxproj">
+      <Project>{06AD733F-332B-341F-A544-001762FC757B}</Project>
+      <Name>02_Dragon_Fractal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\03_LineClipping\03_LineClipping.vcxproj">
+      <Project>{4F7A4E84-13E0-3D0A-9B51-11E68A81E36E}</Project>
+      <Name>03_LineClipping</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\04_MovingThingsPractice\04_MovingThingsPractice.vcxproj">
+      <Project>{06C4D366-FF0D-39CB-8573-BD5490363368}</Project>
+      <Name>04_MovingThingsPractice</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\04_Moving_Fir\04_Moving_Fir.vcxproj">
+      <Project>{40113004-B37F-3AD5-B5C2-8D676CE3F35D}</Project>
+      <Name>04_Moving_Fir</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\05_Transform\05_Transform.vcxproj">
+      <Project>{F53BB2BB-9357-309E-9FA3-E9189C22DE48}</Project>
+      <Name>05_Transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\06_Graph\06_Graph.vcxproj">
+      <Project>{BBABDD65-03DF-3FEB-BB3F-2984F57F7A42}</Project>
+      <Name>06_Graph</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\07_PerspectiveViewport\07_PerspectiveViewport.vcxproj">
+      <Project>{2B80F99A-A7B7-3370-BB6C-4A30B29D6918}</Project>
+      <Name>07_PerspectiveViewport</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\08_Toon_Example\08_Toon_Example.vcxproj">
+      <Project>{12C19BE7-1682-31BC-A327-78FC0573AE2F}</Project>
+      <Name>08_Toon_Example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\09_Texture_Example\09_Texture_Example.vcxproj">
+      <Project>{5A4982FB-130B-3CE1-8123-A2D200997B92}</Project>
+      <Name>09_Texture_Example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\09_Transparency_Example\09_Transparency_Example.vcxproj">
+      <Project>{9D3DDB87-BF21-30DE-98A3-E0EF4CB433FB}</Project>
+      <Name>09_Transparency_Example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\10_BezierSurface_Example\10_BezierSurface_Example.vcxproj">
+      <Project>{2229B624-8711-31B2-B75D-152DF695404F}</Project>
+      <Name>10_BezierSurface_Example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\11_SunEarthMoon_Example\11_SunEarthMoon_Example.vcxproj">
+      <Project>{B9922A6B-4566-3FDA-8B6C-6A4FF6422517}</Project>
+      <Name>11_SunEarthMoon_Example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\CG1_Tools\CG1_Tools.vcxproj">
+      <Project>{77BDBE25-6EA7-3F8C-BA8A-EA3EF0494903}</Project>
+      <Name>CG1_Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\CVK_1_Minimal\CVK_1_Minimal.vcxproj">
+      <Project>{E7D7A1F5-4EE3-3ABA-9E26-0F3E0CC8A92F}</Project>
+      <Name>CVK_1_Minimal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\SimpleImage\SimpleImage.vcxproj">
+      <Project>{D82FE012-5B70-3E07-B68D-1FA36B5FA59F}</Project>
+      <Name>SimpleImage</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\glad\glad.vcxproj">
+      <Project>{3C290C67-3FDB-32E3-91B0-727AE6408BB4}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\glfw3\src\glfw.vcxproj">
+      <Project>{3AA48B37-1737-34FE-B31F-CA888F401777}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\stb\stb.vcxproj">
+      <Project>{806B9A58-BAC3-3C2F-A579-F435F8724772}</Project>
+      <Name>stb</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,65 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"CreateExecutable",
+			"include"
+		],
+		"files" : 
+		[
+			"D:/cvws2122/framework/cmake/projectTools.cmake",
+			"D:/cvws2122/framework/cmake/DefaultExecutable.cmake",
+			"executables/05_Transform/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/RelWithDebInfo/05_Transform.exe"
+			],
+			"targetId" : "05_Transform::@2e43785f2ee231391587",
+			"targetIndex" : 4,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "05_Transform",
+		"source" : "executables/05_Transform"
+	}
+}

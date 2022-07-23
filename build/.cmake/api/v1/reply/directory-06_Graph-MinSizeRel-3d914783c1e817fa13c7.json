@@ -1,0 +1,65 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"CreateExecutable",
+			"include"
+		],
+		"files" : 
+		[
+			"D:/cvws2122/framework/cmake/projectTools.cmake",
+			"D:/cvws2122/framework/cmake/DefaultExecutable.cmake",
+			"executables/06_Graph/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/MinSizeRel/06_Graph.exe"
+			],
+			"targetId" : "06_Graph::@0db87afa82badba48118",
+			"targetIndex" : 5,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "06_Graph",
+		"source" : "executables/06_Graph"
+	}
+}

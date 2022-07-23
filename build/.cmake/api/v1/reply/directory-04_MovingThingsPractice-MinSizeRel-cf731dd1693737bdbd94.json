@@ -1,0 +1,65 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"CreateExecutable",
+			"include"
+		],
+		"files" : 
+		[
+			"D:/cvws2122/framework/cmake/projectTools.cmake",
+			"D:/cvws2122/framework/cmake/DefaultExecutable.cmake",
+			"executables/04_MovingThingsPractice/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/MinSizeRel/04_MovingThingsPractice.exe"
+			],
+			"targetId" : "04_MovingThingsPractice::@305f0ccb70d0f204b17c",
+			"targetIndex" : 2,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "04_MovingThingsPractice",
+		"source" : "executables/04_MovingThingsPractice"
+	}
+}

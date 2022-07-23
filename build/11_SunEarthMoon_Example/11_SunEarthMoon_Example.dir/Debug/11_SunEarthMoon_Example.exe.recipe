@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\cvws2122\framework\CG_allgroups\src\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\cvws2122\framework\CG_allgroups\src\build\x64\Debug\COPY_RUNTIME_FILES</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\cvws2122\framework\CG_allgroups\src\build\bin\11_SunEarthMoon_Example.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

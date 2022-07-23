@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_CompatibilityTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_Cone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_Cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_Geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_Ortho.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_Perspective.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_Pilotview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_Plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_Projection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_ShaderMinimal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_ShaderSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_Sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_Teapot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_Trackball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\src\CVK_Triangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_CompatibilityTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Cone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Cube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Ortho.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Perspective.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Pilotview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Projection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_ShaderMinimal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_ShaderSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Teapot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Trackball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\CVK_Triangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\include\CVK_1_Minimal\Teapot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\cvws2122\framework\libraries\CVK_1_Minimal\dependencies.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{126013B1-E7D0-3021-B066-C2A747ACDC5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6B8907BC-414C-38FB-B2BB-C7A57B1105ED}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

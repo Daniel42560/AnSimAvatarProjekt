@@ -1,0 +1,10 @@
+^D:\CVWS2122\FRAMEWORK\CG_ALLGROUPS\SRC\BUILD\CMAKEFILES\3DCA2FD1644DAE8E8DB18054E548E144\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/cvws2122/framework/CG_allgroups/src -BD:/cvws2122/framework/CG_allgroups/src/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/cvws2122/framework/CG_allgroups/src/build/src.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

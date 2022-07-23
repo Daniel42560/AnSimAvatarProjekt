@@ -1,0 +1,10 @@
+^D:\CVWS2122\FRAMEWORK\CG_ALLGROUPS\SRC\EXECUTABLES\10_BEZIERSURFACE_EXAMPLE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/cvws2122/framework/CG_allgroups/src -BD:/cvws2122/framework/CG_allgroups/src/build --check-stamp-file D:/cvws2122/framework/CG_allgroups/src/build/10_BezierSurface_Example/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

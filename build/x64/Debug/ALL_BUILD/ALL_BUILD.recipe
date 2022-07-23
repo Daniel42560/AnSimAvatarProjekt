@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\cvws2122\framework\CG_allgroups\src\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\cvws2122\framework\CG_allgroups\src\build\x64\Debug\COPY_RUNTIME_FILES</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\cvws2122\framework\CG_allgroups\src\build\bin\02_Dragon_Fractal.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\cvws2122\framework\CG_allgroups\src\build\bin\03_LineClipping.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\cvws2122\framework\CG_allgroups\src\build\bin\04_Moving_Fir.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\cvws2122\framework\CG_allgroups\src\build\bin\05_Transform.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\cvws2122\framework\CG_allgroups\src\build\bin\06_Graph.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\cvws2122\framework\CG_allgroups\src\build\bin\07_PerspectiveViewport.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\cvws2122\framework\CG_allgroups\src\build\bin\08_Toon_Example.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\cvws2122\framework\CG_allgroups\src\build\bin\09_Texture_Example.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\cvws2122\framework\CG_allgroups\src\build\bin\09_Transparency_Example.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\cvws2122\framework\CG_allgroups\src\build\bin\10_BezierSurface_Example.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\cvws2122\framework\CG_allgroups\src\build\bin\11_SunEarthMoon_Example.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\cvws2122\framework\CG_allgroups\src\build\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

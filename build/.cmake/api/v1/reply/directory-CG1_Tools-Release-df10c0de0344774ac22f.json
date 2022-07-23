@@ -1,0 +1,84 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"CreateLibrary",
+			"include"
+		],
+		"files" : 
+		[
+			"D:/cvws2122/framework/cmake/projectTools.cmake",
+			"D:/cvws2122/framework/cmake/DefaultLibrary.cmake",
+			"D:/cvws2122/framework/libraries/CG1_Tools/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 173,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 178,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/static",
+			"paths" : 
+			[
+				"lib/CG1_Tools.lib"
+			],
+			"targetId" : "CG1_Tools::@78f0ef91947189c333fb",
+			"targetIndex" : 34,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "D:/cvws2122/framework/libraries/CG1_Tools/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "CG1_Tools",
+		"source" : "D:/cvws2122/framework/libraries/CG1_Tools"
+	}
+}

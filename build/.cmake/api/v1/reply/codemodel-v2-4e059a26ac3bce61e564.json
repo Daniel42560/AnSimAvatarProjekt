@@ -1,0 +1,4364 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						21,
+						23
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-eedf46c1ec7bcbfb19a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						15,
+						35,
+						38,
+						40,
+						41
+					]
+				},
+				{
+					"build" : "02_Dragon_Fractal",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-02_Dragon_Fractal-Debug-d1568a81f7c218005fc4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "executables/02_Dragon_Fractal",
+					"targetIndexes" : 
+					[
+						0,
+						18
+					]
+				},
+				{
+					"build" : "03_LineClipping",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-03_LineClipping-Debug-58a263871d9522d6a16d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "executables/03_LineClipping",
+					"targetIndexes" : 
+					[
+						1,
+						20
+					]
+				},
+				{
+					"build" : "04_MovingThingsPractice",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-04_MovingThingsPractice-Debug-8bcc0ec979c7df25bd9f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "executables/04_MovingThingsPractice",
+					"targetIndexes" : 
+					[
+						2,
+						22
+					]
+				},
+				{
+					"build" : "04_Moving_Fir",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-04_Moving_Fir-Debug-f61dd191a333da7546f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "executables/04_Moving_Fir",
+					"targetIndexes" : 
+					[
+						3,
+						24
+					]
+				},
+				{
+					"build" : "05_Transform",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-05_Transform-Debug-64329c9ad98e8473c917.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "executables/05_Transform",
+					"targetIndexes" : 
+					[
+						4,
+						27
+					]
+				},
+				{
+					"build" : "06_Graph",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-06_Graph-Debug-2ee5077750b528f5ba65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "executables/06_Graph",
+					"targetIndexes" : 
+					[
+						5,
+						29
+					]
+				},
+				{
+					"build" : "07_PerspectiveViewport",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-07_PerspectiveViewport-Debug-f56b8f3443fbc9177eba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "executables/07_PerspectiveViewport",
+					"targetIndexes" : 
+					[
+						6,
+						31
+					]
+				},
+				{
+					"build" : "08_Toon_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-08_Toon_Example-Debug-8b8c1053522bd9bec818.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "executables/08_Toon_Example",
+					"targetIndexes" : 
+					[
+						7,
+						33
+					]
+				},
+				{
+					"build" : "09_Texture_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-09_Texture_Example-Debug-aea34b5a4c3a7abc90d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "executables/09_Texture_Example",
+					"targetIndexes" : 
+					[
+						8,
+						13
+					]
+				},
+				{
+					"build" : "09_Transparency_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-09_Transparency_Example-Debug-af570529799fb719d9c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "executables/09_Transparency_Example",
+					"targetIndexes" : 
+					[
+						9,
+						14
+					]
+				},
+				{
+					"build" : "10_BezierSurface_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-10_BezierSurface_Example-Debug-2bf0e9f9e04fe021405e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "executables/10_BezierSurface_Example",
+					"targetIndexes" : 
+					[
+						10,
+						17
+					]
+				},
+				{
+					"build" : "11_SunEarthMoon_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-11_SunEarthMoon_Example-Debug-7de12f487d8932e1568e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "executables/11_SunEarthMoon_Example",
+					"targetIndexes" : 
+					[
+						11,
+						19
+					]
+				},
+				{
+					"build" : "shaders",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-shaders-Debug-0882ef1bce38e28637e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "shaders",
+					"targetIndexes" : 
+					[
+						21,
+						44
+					]
+				},
+				{
+					"build" : "CG1_Tools",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CG1_Tools-Debug-498a0ec0709a3fa345c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "D:/cvws2122/framework/libraries/CG1_Tools",
+					"targetIndexes" : 
+					[
+						23,
+						34
+					]
+				},
+				{
+					"build" : "CVK_1_Minimal",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CVK_1_Minimal-Debug-84f2b4b0763ffbce5b4a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "D:/cvws2122/framework/libraries/CVK_1_Minimal",
+					"targetIndexes" : 
+					[
+						25,
+						36
+					]
+				},
+				{
+					"build" : "Eigen",
+					"jsonFile" : "directory-Eigen-Debug-5888c18bee7b3ecfb547.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "D:/cvws2122/framework/libraries/Eigen",
+					"targetIndexes" : 
+					[
+						26,
+						37
+					]
+				},
+				{
+					"build" : "SimpleImage",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-SimpleImage-Debug-4c358b3694776fd33f5a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 17,
+					"source" : "D:/cvws2122/framework/libraries/SimpleImage",
+					"targetIndexes" : 
+					[
+						28,
+						39
+					]
+				},
+				{
+					"build" : "glad",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-glad-Debug-0aa5faacc36d685f8a96.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 18,
+					"source" : "D:/cvws2122/framework/libraries/glad",
+					"targetIndexes" : 
+					[
+						30,
+						42
+					]
+				},
+				{
+					"build" : "glfw3",
+					"childIndexes" : 
+					[
+						20
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-glfw3-Debug-19ee97139fed7e7ca4e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 19,
+					"source" : "D:/cvws2122/framework/libraries/glfw3",
+					"targetIndexes" : 
+					[
+						16,
+						46
+					]
+				},
+				{
+					"build" : "glfw3/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-glfw3.src-Debug-151f59f8e6b2f3c4a687.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 19,
+					"source" : "D:/cvws2122/framework/libraries/glfw3/src",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "glm",
+					"childIndexes" : 
+					[
+						22
+					],
+					"jsonFile" : "directory-glm-Debug-3269c632dd5fdd003d82.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 20,
+					"source" : "D:/cvws2122/framework/libraries/glm",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "glm/glm",
+					"jsonFile" : "directory-glm.glm-Debug-594c0ad98aacceb7accc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 20,
+					"source" : "D:/cvws2122/framework/libraries/glm/glm"
+				},
+				{
+					"build" : "stb",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-stb-Debug-90fc0a0c857688ad2d63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 21,
+					"source" : "D:/cvws2122/framework/libraries/stb",
+					"targetIndexes" : 
+					[
+						12,
+						45
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "src",
+					"targetIndexes" : 
+					[
+						15,
+						35,
+						38,
+						40,
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "02_Dragon_Fractal",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "03_LineClipping",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "04_MovingThingsPractice",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "04_Moving_Fir",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "05_Transform",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "06_Graph",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "07_PerspectiveViewport",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "08_Toon_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "09_Texture_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "09_Transparency_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "10_BezierSurface_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "11_SunEarthMoon_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "SHADERS",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21,
+						44
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "CG1_Tools",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						23,
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "CVK_1_Minimal",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						25,
+						36
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "Eigen",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26,
+						37
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "SimpleImage",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						28,
+						39
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						30,
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19,
+						20
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16,
+						43,
+						46
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21,
+						22
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "stb",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						45
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "02_Dragon_Fractal::@a2debf4c769bac6e4e71",
+					"jsonFile" : "target-02_Dragon_Fractal-Debug-16814950a5bc6fb208c1.json",
+					"name" : "02_Dragon_Fractal",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "03_LineClipping::@d3d796571283fbbc4b96",
+					"jsonFile" : "target-03_LineClipping-Debug-fa3730b5cccdcd8fc271.json",
+					"name" : "03_LineClipping",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "04_MovingThingsPractice::@305f0ccb70d0f204b17c",
+					"jsonFile" : "target-04_MovingThingsPractice-Debug-178d4a97a810e3b35165.json",
+					"name" : "04_MovingThingsPractice",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "04_Moving_Fir::@d9c831dfb220e29aef74",
+					"jsonFile" : "target-04_Moving_Fir-Debug-9ae4868a7493330901f7.json",
+					"name" : "04_Moving_Fir",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "05_Transform::@2e43785f2ee231391587",
+					"jsonFile" : "target-05_Transform-Debug-995237d95b1276f68d8c.json",
+					"name" : "05_Transform",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "06_Graph::@0db87afa82badba48118",
+					"jsonFile" : "target-06_Graph-Debug-9e28a5d7a714c905f98a.json",
+					"name" : "06_Graph",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "07_PerspectiveViewport::@12620dc2193efa3fa4bd",
+					"jsonFile" : "target-07_PerspectiveViewport-Debug-34ce40fd8667a58e2b8c.json",
+					"name" : "07_PerspectiveViewport",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "08_Toon_Example::@46dd60e10f4ef9e2a4e5",
+					"jsonFile" : "target-08_Toon_Example-Debug-871e101e830c52eccffe.json",
+					"name" : "08_Toon_Example",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "09_Texture_Example::@ee3c6c0812cf20911e79",
+					"jsonFile" : "target-09_Texture_Example-Debug-b51877135ab061dc8eae.json",
+					"name" : "09_Texture_Example",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "09_Transparency_Example::@cf0e8b1aacd728a1403d",
+					"jsonFile" : "target-09_Transparency_Example-Debug-236a6a612c22e260f122.json",
+					"name" : "09_Transparency_Example",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "10_BezierSurface_Example::@6feabec8620a5a8f718e",
+					"jsonFile" : "target-10_BezierSurface_Example-Debug-0d23f41386809b92e17e.json",
+					"name" : "10_BezierSurface_Example",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "11_SunEarthMoon_Example::@dc04e307d63d1917e37f",
+					"jsonFile" : "target-11_SunEarthMoon_Example-Debug-ea3ff55bdf296e9bbad1.json",
+					"name" : "11_SunEarthMoon_Example",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "ALL_BUILD::@19cbcdf8865f09af2779",
+					"jsonFile" : "target-ALL_BUILD-Debug-bdf8e9b001c2d7518757.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@ee3c6c0812cf20911e79",
+					"jsonFile" : "target-ALL_BUILD-Debug-6a3b4e852c7d73081cec.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@cf0e8b1aacd728a1403d",
+					"jsonFile" : "target-ALL_BUILD-Debug-6840be41d15870186818.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-38e58d312f2a465e3931.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "ALL_BUILD::@45c6925279c4ed29880e",
+					"jsonFile" : "target-ALL_BUILD-Debug-91441a77a07c114e41fe.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@6feabec8620a5a8f718e",
+					"jsonFile" : "target-ALL_BUILD-Debug-87b3d7a427ed9e2db654.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@a2debf4c769bac6e4e71",
+					"jsonFile" : "target-ALL_BUILD-Debug-ada143d5eaa4505078a5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@dc04e307d63d1917e37f",
+					"jsonFile" : "target-ALL_BUILD-Debug-d14315ea520771ddf761.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@d3d796571283fbbc4b96",
+					"jsonFile" : "target-ALL_BUILD-Debug-94dbbedb4fa3a060a97e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ALL_BUILD::@8132085bf3b90c3252db",
+					"jsonFile" : "target-ALL_BUILD-Debug-f86e17aecce505c0e091.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@305f0ccb70d0f204b17c",
+					"jsonFile" : "target-ALL_BUILD-Debug-e25ca77c3f8bcc61874f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ALL_BUILD::@78f0ef91947189c333fb",
+					"jsonFile" : "target-ALL_BUILD-Debug-3de4777c70543b776c58.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@d9c831dfb220e29aef74",
+					"jsonFile" : "target-ALL_BUILD-Debug-b0753ac3f458cb9493c9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@0c512b40e2b970e1530a",
+					"jsonFile" : "target-ALL_BUILD-Debug-09c130a30b49fb137d44.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "ALL_BUILD::@338aa4adcd6ca33e9b74",
+					"jsonFile" : "target-ALL_BUILD-Debug-ffaf0f8744aedf90079e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@2e43785f2ee231391587",
+					"jsonFile" : "target-ALL_BUILD-Debug-0829c6603d5dffb943d5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ALL_BUILD::@c7c7fb059fa7045ee7e6",
+					"jsonFile" : "target-ALL_BUILD-Debug-63f49810e72766b32c16.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@0db87afa82badba48118",
+					"jsonFile" : "target-ALL_BUILD-Debug-19ed6c8d62686994013f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "ALL_BUILD::@74ca6b3581f0d7366b1f",
+					"jsonFile" : "target-ALL_BUILD-Debug-8f6bffd8b1f409d5bc46.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@12620dc2193efa3fa4bd",
+					"jsonFile" : "target-ALL_BUILD-Debug-f2bbaf5ffbb032a02c9a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "ALL_BUILD::@fa0cdaa9020ff8f602ac",
+					"jsonFile" : "target-ALL_BUILD-Debug-d7d1227f17efb117bc89.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@46dd60e10f4ef9e2a4e5",
+					"jsonFile" : "target-ALL_BUILD-Debug-16cc80ab6891a16a726a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "CG1_Tools::@78f0ef91947189c333fb",
+					"jsonFile" : "target-CG1_Tools-Debug-d41f48c57d0c6388f1d6.json",
+					"name" : "CG1_Tools",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "COPY_RUNTIME_FILES::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-COPY_RUNTIME_FILES-Debug-8cfc5fb7a552ef452a12.json",
+					"name" : "COPY_RUNTIME_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "CVK_1_Minimal::@0c512b40e2b970e1530a",
+					"jsonFile" : "target-CVK_1_Minimal-Debug-be4a766ccad027bc00c9.json",
+					"name" : "CVK_1_Minimal",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "Eigen_sources::@338aa4adcd6ca33e9b74",
+					"jsonFile" : "target-Eigen_sources-Debug-852a93fe8ba881537758.json",
+					"name" : "Eigen_sources",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RERUN_CMAKE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RERUN_CMAKE-Debug-c722fbbefa353c90096e.json",
+					"name" : "RERUN_CMAKE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "SimpleImage::@c7c7fb059fa7045ee7e6",
+					"jsonFile" : "target-SimpleImage-Debug-45d663e65a1ac9f826a5.json",
+					"name" : "SimpleImage",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-359c5f9808812ed52b50.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmake_sources::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmake_sources-Debug-e0f8f124ba1bd571bf0d.json",
+					"name" : "cmake_sources",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "glad::@74ca6b3581f0d7366b1f",
+					"jsonFile" : "target-glad-Debug-86975785735387658a16.json",
+					"name" : "glad",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "glfw::@bae8f2c06706af8a0c0f",
+					"jsonFile" : "target-glfw-Debug-e51f24c90c9bd4a56828.json",
+					"name" : "glfw",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "shaders_sources::@8132085bf3b90c3252db",
+					"jsonFile" : "target-shaders_sources-Debug-6afd06210220efdcff64.json",
+					"name" : "shaders_sources",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "stb::@19cbcdf8865f09af2779",
+					"jsonFile" : "target-stb-Debug-153fbe36aee264bfa409.json",
+					"name" : "stb",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "uninstall::@45c6925279c4ed29880e",
+					"jsonFile" : "target-uninstall-Debug-2b23cda2db5f546c729c.json",
+					"name" : "uninstall",
+					"projectIndex" : 19
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						21,
+						23
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-eedf46c1ec7bcbfb19a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						15,
+						35,
+						38,
+						40,
+						41
+					]
+				},
+				{
+					"build" : "02_Dragon_Fractal",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-02_Dragon_Fractal-Release-d1568a81f7c218005fc4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "executables/02_Dragon_Fractal",
+					"targetIndexes" : 
+					[
+						0,
+						18
+					]
+				},
+				{
+					"build" : "03_LineClipping",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-03_LineClipping-Release-58a263871d9522d6a16d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "executables/03_LineClipping",
+					"targetIndexes" : 
+					[
+						1,
+						20
+					]
+				},
+				{
+					"build" : "04_MovingThingsPractice",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-04_MovingThingsPractice-Release-8bcc0ec979c7df25bd9f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "executables/04_MovingThingsPractice",
+					"targetIndexes" : 
+					[
+						2,
+						22
+					]
+				},
+				{
+					"build" : "04_Moving_Fir",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-04_Moving_Fir-Release-f61dd191a333da7546f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "executables/04_Moving_Fir",
+					"targetIndexes" : 
+					[
+						3,
+						24
+					]
+				},
+				{
+					"build" : "05_Transform",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-05_Transform-Release-64329c9ad98e8473c917.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "executables/05_Transform",
+					"targetIndexes" : 
+					[
+						4,
+						27
+					]
+				},
+				{
+					"build" : "06_Graph",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-06_Graph-Release-2ee5077750b528f5ba65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "executables/06_Graph",
+					"targetIndexes" : 
+					[
+						5,
+						29
+					]
+				},
+				{
+					"build" : "07_PerspectiveViewport",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-07_PerspectiveViewport-Release-f56b8f3443fbc9177eba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "executables/07_PerspectiveViewport",
+					"targetIndexes" : 
+					[
+						6,
+						31
+					]
+				},
+				{
+					"build" : "08_Toon_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-08_Toon_Example-Release-8b8c1053522bd9bec818.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "executables/08_Toon_Example",
+					"targetIndexes" : 
+					[
+						7,
+						33
+					]
+				},
+				{
+					"build" : "09_Texture_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-09_Texture_Example-Release-aea34b5a4c3a7abc90d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "executables/09_Texture_Example",
+					"targetIndexes" : 
+					[
+						8,
+						13
+					]
+				},
+				{
+					"build" : "09_Transparency_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-09_Transparency_Example-Release-af570529799fb719d9c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "executables/09_Transparency_Example",
+					"targetIndexes" : 
+					[
+						9,
+						14
+					]
+				},
+				{
+					"build" : "10_BezierSurface_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-10_BezierSurface_Example-Release-2bf0e9f9e04fe021405e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "executables/10_BezierSurface_Example",
+					"targetIndexes" : 
+					[
+						10,
+						17
+					]
+				},
+				{
+					"build" : "11_SunEarthMoon_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-11_SunEarthMoon_Example-Release-7de12f487d8932e1568e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "executables/11_SunEarthMoon_Example",
+					"targetIndexes" : 
+					[
+						11,
+						19
+					]
+				},
+				{
+					"build" : "shaders",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-shaders-Release-0882ef1bce38e28637e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "shaders",
+					"targetIndexes" : 
+					[
+						21,
+						44
+					]
+				},
+				{
+					"build" : "CG1_Tools",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CG1_Tools-Release-df10c0de0344774ac22f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "D:/cvws2122/framework/libraries/CG1_Tools",
+					"targetIndexes" : 
+					[
+						23,
+						34
+					]
+				},
+				{
+					"build" : "CVK_1_Minimal",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CVK_1_Minimal-Release-c8e1ec1b2686f4bd62a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "D:/cvws2122/framework/libraries/CVK_1_Minimal",
+					"targetIndexes" : 
+					[
+						25,
+						36
+					]
+				},
+				{
+					"build" : "Eigen",
+					"jsonFile" : "directory-Eigen-Release-5888c18bee7b3ecfb547.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "D:/cvws2122/framework/libraries/Eigen",
+					"targetIndexes" : 
+					[
+						26,
+						37
+					]
+				},
+				{
+					"build" : "SimpleImage",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-SimpleImage-Release-de3942aa4de490db76c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 17,
+					"source" : "D:/cvws2122/framework/libraries/SimpleImage",
+					"targetIndexes" : 
+					[
+						28,
+						39
+					]
+				},
+				{
+					"build" : "glad",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-glad-Release-d8891d2ec4313ce2381d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 18,
+					"source" : "D:/cvws2122/framework/libraries/glad",
+					"targetIndexes" : 
+					[
+						30,
+						42
+					]
+				},
+				{
+					"build" : "glfw3",
+					"childIndexes" : 
+					[
+						20
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-glfw3-Release-19ee97139fed7e7ca4e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 19,
+					"source" : "D:/cvws2122/framework/libraries/glfw3",
+					"targetIndexes" : 
+					[
+						16,
+						46
+					]
+				},
+				{
+					"build" : "glfw3/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-glfw3.src-Release-a99d5ac0badb7a0259d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 19,
+					"source" : "D:/cvws2122/framework/libraries/glfw3/src",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "glm",
+					"childIndexes" : 
+					[
+						22
+					],
+					"jsonFile" : "directory-glm-Release-3269c632dd5fdd003d82.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 20,
+					"source" : "D:/cvws2122/framework/libraries/glm",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "glm/glm",
+					"jsonFile" : "directory-glm.glm-Release-594c0ad98aacceb7accc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 20,
+					"source" : "D:/cvws2122/framework/libraries/glm/glm"
+				},
+				{
+					"build" : "stb",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-stb-Release-39a1d28a8fa91fc085a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 21,
+					"source" : "D:/cvws2122/framework/libraries/stb",
+					"targetIndexes" : 
+					[
+						12,
+						45
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "src",
+					"targetIndexes" : 
+					[
+						15,
+						35,
+						38,
+						40,
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "02_Dragon_Fractal",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "03_LineClipping",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "04_MovingThingsPractice",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "04_Moving_Fir",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "05_Transform",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "06_Graph",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "07_PerspectiveViewport",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "08_Toon_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "09_Texture_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "09_Transparency_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "10_BezierSurface_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "11_SunEarthMoon_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "SHADERS",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21,
+						44
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "CG1_Tools",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						23,
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "CVK_1_Minimal",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						25,
+						36
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "Eigen",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26,
+						37
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "SimpleImage",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						28,
+						39
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						30,
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19,
+						20
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16,
+						43,
+						46
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21,
+						22
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "stb",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						45
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "02_Dragon_Fractal::@a2debf4c769bac6e4e71",
+					"jsonFile" : "target-02_Dragon_Fractal-Release-16b361318e0c5686aefd.json",
+					"name" : "02_Dragon_Fractal",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "03_LineClipping::@d3d796571283fbbc4b96",
+					"jsonFile" : "target-03_LineClipping-Release-c5d1811325b5c9df6b53.json",
+					"name" : "03_LineClipping",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "04_MovingThingsPractice::@305f0ccb70d0f204b17c",
+					"jsonFile" : "target-04_MovingThingsPractice-Release-25133ccce7a1f1052c17.json",
+					"name" : "04_MovingThingsPractice",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "04_Moving_Fir::@d9c831dfb220e29aef74",
+					"jsonFile" : "target-04_Moving_Fir-Release-8d0dde4d17dc823643c1.json",
+					"name" : "04_Moving_Fir",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "05_Transform::@2e43785f2ee231391587",
+					"jsonFile" : "target-05_Transform-Release-5a9559d4449242e48888.json",
+					"name" : "05_Transform",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "06_Graph::@0db87afa82badba48118",
+					"jsonFile" : "target-06_Graph-Release-a0ba4cb5a19185dde4df.json",
+					"name" : "06_Graph",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "07_PerspectiveViewport::@12620dc2193efa3fa4bd",
+					"jsonFile" : "target-07_PerspectiveViewport-Release-634c0b4f7c9401c57b6a.json",
+					"name" : "07_PerspectiveViewport",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "08_Toon_Example::@46dd60e10f4ef9e2a4e5",
+					"jsonFile" : "target-08_Toon_Example-Release-ecdc37887e596be5459e.json",
+					"name" : "08_Toon_Example",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "09_Texture_Example::@ee3c6c0812cf20911e79",
+					"jsonFile" : "target-09_Texture_Example-Release-12ae6899e3531d3ccdd6.json",
+					"name" : "09_Texture_Example",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "09_Transparency_Example::@cf0e8b1aacd728a1403d",
+					"jsonFile" : "target-09_Transparency_Example-Release-44b7236c453ba1f4f474.json",
+					"name" : "09_Transparency_Example",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "10_BezierSurface_Example::@6feabec8620a5a8f718e",
+					"jsonFile" : "target-10_BezierSurface_Example-Release-81052412291997a49be1.json",
+					"name" : "10_BezierSurface_Example",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "11_SunEarthMoon_Example::@dc04e307d63d1917e37f",
+					"jsonFile" : "target-11_SunEarthMoon_Example-Release-b53d852a9d56931ab468.json",
+					"name" : "11_SunEarthMoon_Example",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "ALL_BUILD::@19cbcdf8865f09af2779",
+					"jsonFile" : "target-ALL_BUILD-Release-bdf8e9b001c2d7518757.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@ee3c6c0812cf20911e79",
+					"jsonFile" : "target-ALL_BUILD-Release-6a3b4e852c7d73081cec.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@cf0e8b1aacd728a1403d",
+					"jsonFile" : "target-ALL_BUILD-Release-6840be41d15870186818.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-38e58d312f2a465e3931.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "ALL_BUILD::@45c6925279c4ed29880e",
+					"jsonFile" : "target-ALL_BUILD-Release-91441a77a07c114e41fe.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@6feabec8620a5a8f718e",
+					"jsonFile" : "target-ALL_BUILD-Release-87b3d7a427ed9e2db654.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@a2debf4c769bac6e4e71",
+					"jsonFile" : "target-ALL_BUILD-Release-ada143d5eaa4505078a5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@dc04e307d63d1917e37f",
+					"jsonFile" : "target-ALL_BUILD-Release-d14315ea520771ddf761.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@d3d796571283fbbc4b96",
+					"jsonFile" : "target-ALL_BUILD-Release-94dbbedb4fa3a060a97e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ALL_BUILD::@8132085bf3b90c3252db",
+					"jsonFile" : "target-ALL_BUILD-Release-f86e17aecce505c0e091.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@305f0ccb70d0f204b17c",
+					"jsonFile" : "target-ALL_BUILD-Release-e25ca77c3f8bcc61874f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ALL_BUILD::@78f0ef91947189c333fb",
+					"jsonFile" : "target-ALL_BUILD-Release-3de4777c70543b776c58.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@d9c831dfb220e29aef74",
+					"jsonFile" : "target-ALL_BUILD-Release-b0753ac3f458cb9493c9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@0c512b40e2b970e1530a",
+					"jsonFile" : "target-ALL_BUILD-Release-09c130a30b49fb137d44.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "ALL_BUILD::@338aa4adcd6ca33e9b74",
+					"jsonFile" : "target-ALL_BUILD-Release-ffaf0f8744aedf90079e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@2e43785f2ee231391587",
+					"jsonFile" : "target-ALL_BUILD-Release-0829c6603d5dffb943d5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ALL_BUILD::@c7c7fb059fa7045ee7e6",
+					"jsonFile" : "target-ALL_BUILD-Release-63f49810e72766b32c16.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@0db87afa82badba48118",
+					"jsonFile" : "target-ALL_BUILD-Release-19ed6c8d62686994013f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "ALL_BUILD::@74ca6b3581f0d7366b1f",
+					"jsonFile" : "target-ALL_BUILD-Release-8f6bffd8b1f409d5bc46.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@12620dc2193efa3fa4bd",
+					"jsonFile" : "target-ALL_BUILD-Release-f2bbaf5ffbb032a02c9a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "ALL_BUILD::@fa0cdaa9020ff8f602ac",
+					"jsonFile" : "target-ALL_BUILD-Release-d7d1227f17efb117bc89.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@46dd60e10f4ef9e2a4e5",
+					"jsonFile" : "target-ALL_BUILD-Release-16cc80ab6891a16a726a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "CG1_Tools::@78f0ef91947189c333fb",
+					"jsonFile" : "target-CG1_Tools-Release-5661d0bf3a928b93c850.json",
+					"name" : "CG1_Tools",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "COPY_RUNTIME_FILES::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-COPY_RUNTIME_FILES-Release-8cfc5fb7a552ef452a12.json",
+					"name" : "COPY_RUNTIME_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "CVK_1_Minimal::@0c512b40e2b970e1530a",
+					"jsonFile" : "target-CVK_1_Minimal-Release-bcf2e1cb30602c649a8c.json",
+					"name" : "CVK_1_Minimal",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "Eigen_sources::@338aa4adcd6ca33e9b74",
+					"jsonFile" : "target-Eigen_sources-Release-852a93fe8ba881537758.json",
+					"name" : "Eigen_sources",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RERUN_CMAKE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RERUN_CMAKE-Release-c722fbbefa353c90096e.json",
+					"name" : "RERUN_CMAKE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "SimpleImage::@c7c7fb059fa7045ee7e6",
+					"jsonFile" : "target-SimpleImage-Release-4bd5225c81802ad46521.json",
+					"name" : "SimpleImage",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-359c5f9808812ed52b50.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmake_sources::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmake_sources-Release-e0f8f124ba1bd571bf0d.json",
+					"name" : "cmake_sources",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "glad::@74ca6b3581f0d7366b1f",
+					"jsonFile" : "target-glad-Release-2a43dd04f8116eb8ca7b.json",
+					"name" : "glad",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "glfw::@bae8f2c06706af8a0c0f",
+					"jsonFile" : "target-glfw-Release-aeb343b9a90f0a4141a5.json",
+					"name" : "glfw",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "shaders_sources::@8132085bf3b90c3252db",
+					"jsonFile" : "target-shaders_sources-Release-6afd06210220efdcff64.json",
+					"name" : "shaders_sources",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "stb::@19cbcdf8865f09af2779",
+					"jsonFile" : "target-stb-Release-d2fa4f960d7f2e69013d.json",
+					"name" : "stb",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "uninstall::@45c6925279c4ed29880e",
+					"jsonFile" : "target-uninstall-Release-2b23cda2db5f546c729c.json",
+					"name" : "uninstall",
+					"projectIndex" : 19
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						21,
+						23
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-eedf46c1ec7bcbfb19a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						15,
+						35,
+						38,
+						40,
+						41
+					]
+				},
+				{
+					"build" : "02_Dragon_Fractal",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-02_Dragon_Fractal-MinSizeRel-1e963f978a27532bb592.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "executables/02_Dragon_Fractal",
+					"targetIndexes" : 
+					[
+						0,
+						18
+					]
+				},
+				{
+					"build" : "03_LineClipping",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-03_LineClipping-MinSizeRel-3339fd459d352e818aab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "executables/03_LineClipping",
+					"targetIndexes" : 
+					[
+						1,
+						20
+					]
+				},
+				{
+					"build" : "04_MovingThingsPractice",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-04_MovingThingsPractice-MinSizeRel-cf731dd1693737bdbd94.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "executables/04_MovingThingsPractice",
+					"targetIndexes" : 
+					[
+						2,
+						22
+					]
+				},
+				{
+					"build" : "04_Moving_Fir",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-04_Moving_Fir-MinSizeRel-789e148ee5c1135fccc9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "executables/04_Moving_Fir",
+					"targetIndexes" : 
+					[
+						3,
+						24
+					]
+				},
+				{
+					"build" : "05_Transform",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-05_Transform-MinSizeRel-afab2ff32d1ab956cc66.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "executables/05_Transform",
+					"targetIndexes" : 
+					[
+						4,
+						27
+					]
+				},
+				{
+					"build" : "06_Graph",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-06_Graph-MinSizeRel-3d914783c1e817fa13c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "executables/06_Graph",
+					"targetIndexes" : 
+					[
+						5,
+						29
+					]
+				},
+				{
+					"build" : "07_PerspectiveViewport",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-07_PerspectiveViewport-MinSizeRel-5e57eab3e1b1c0bd433f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "executables/07_PerspectiveViewport",
+					"targetIndexes" : 
+					[
+						6,
+						31
+					]
+				},
+				{
+					"build" : "08_Toon_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-08_Toon_Example-MinSizeRel-efed623faeabdba13f45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "executables/08_Toon_Example",
+					"targetIndexes" : 
+					[
+						7,
+						33
+					]
+				},
+				{
+					"build" : "09_Texture_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-09_Texture_Example-MinSizeRel-64a0682385b21f53b62e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "executables/09_Texture_Example",
+					"targetIndexes" : 
+					[
+						8,
+						13
+					]
+				},
+				{
+					"build" : "09_Transparency_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-09_Transparency_Example-MinSizeRel-cfd686556b1096989b32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "executables/09_Transparency_Example",
+					"targetIndexes" : 
+					[
+						9,
+						14
+					]
+				},
+				{
+					"build" : "10_BezierSurface_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-10_BezierSurface_Example-MinSizeRel-aa2cf271d36b4636fb71.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "executables/10_BezierSurface_Example",
+					"targetIndexes" : 
+					[
+						10,
+						17
+					]
+				},
+				{
+					"build" : "11_SunEarthMoon_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-11_SunEarthMoon_Example-MinSizeRel-aecfb9e5ed4f4302e08f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "executables/11_SunEarthMoon_Example",
+					"targetIndexes" : 
+					[
+						11,
+						19
+					]
+				},
+				{
+					"build" : "shaders",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-shaders-MinSizeRel-0882ef1bce38e28637e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "shaders",
+					"targetIndexes" : 
+					[
+						21,
+						44
+					]
+				},
+				{
+					"build" : "CG1_Tools",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CG1_Tools-MinSizeRel-2548ae460acbe2ce0956.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "D:/cvws2122/framework/libraries/CG1_Tools",
+					"targetIndexes" : 
+					[
+						23,
+						34
+					]
+				},
+				{
+					"build" : "CVK_1_Minimal",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CVK_1_Minimal-MinSizeRel-0f764fe5f771a7143cde.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "D:/cvws2122/framework/libraries/CVK_1_Minimal",
+					"targetIndexes" : 
+					[
+						25,
+						36
+					]
+				},
+				{
+					"build" : "Eigen",
+					"jsonFile" : "directory-Eigen-MinSizeRel-5888c18bee7b3ecfb547.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "D:/cvws2122/framework/libraries/Eigen",
+					"targetIndexes" : 
+					[
+						26,
+						37
+					]
+				},
+				{
+					"build" : "SimpleImage",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-SimpleImage-MinSizeRel-eff00091a13b8f5bed72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 17,
+					"source" : "D:/cvws2122/framework/libraries/SimpleImage",
+					"targetIndexes" : 
+					[
+						28,
+						39
+					]
+				},
+				{
+					"build" : "glad",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-glad-MinSizeRel-4906ad518072cb4b02f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 18,
+					"source" : "D:/cvws2122/framework/libraries/glad",
+					"targetIndexes" : 
+					[
+						30,
+						42
+					]
+				},
+				{
+					"build" : "glfw3",
+					"childIndexes" : 
+					[
+						20
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-glfw3-MinSizeRel-19ee97139fed7e7ca4e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 19,
+					"source" : "D:/cvws2122/framework/libraries/glfw3",
+					"targetIndexes" : 
+					[
+						16,
+						46
+					]
+				},
+				{
+					"build" : "glfw3/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-glfw3.src-MinSizeRel-a4dcd2ac1a727be53a18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 19,
+					"source" : "D:/cvws2122/framework/libraries/glfw3/src",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "glm",
+					"childIndexes" : 
+					[
+						22
+					],
+					"jsonFile" : "directory-glm-MinSizeRel-3269c632dd5fdd003d82.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 20,
+					"source" : "D:/cvws2122/framework/libraries/glm",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "glm/glm",
+					"jsonFile" : "directory-glm.glm-MinSizeRel-594c0ad98aacceb7accc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 20,
+					"source" : "D:/cvws2122/framework/libraries/glm/glm"
+				},
+				{
+					"build" : "stb",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-stb-MinSizeRel-d80976bee97f410bfc1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 21,
+					"source" : "D:/cvws2122/framework/libraries/stb",
+					"targetIndexes" : 
+					[
+						12,
+						45
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "src",
+					"targetIndexes" : 
+					[
+						15,
+						35,
+						38,
+						40,
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "02_Dragon_Fractal",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "03_LineClipping",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "04_MovingThingsPractice",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "04_Moving_Fir",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "05_Transform",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "06_Graph",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "07_PerspectiveViewport",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "08_Toon_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "09_Texture_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "09_Transparency_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "10_BezierSurface_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "11_SunEarthMoon_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "SHADERS",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21,
+						44
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "CG1_Tools",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						23,
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "CVK_1_Minimal",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						25,
+						36
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "Eigen",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26,
+						37
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "SimpleImage",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						28,
+						39
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						30,
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19,
+						20
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16,
+						43,
+						46
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21,
+						22
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "stb",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						45
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "02_Dragon_Fractal::@a2debf4c769bac6e4e71",
+					"jsonFile" : "target-02_Dragon_Fractal-MinSizeRel-27550531d9c598433832.json",
+					"name" : "02_Dragon_Fractal",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "03_LineClipping::@d3d796571283fbbc4b96",
+					"jsonFile" : "target-03_LineClipping-MinSizeRel-f3c01c1e079a0bfc2d9b.json",
+					"name" : "03_LineClipping",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "04_MovingThingsPractice::@305f0ccb70d0f204b17c",
+					"jsonFile" : "target-04_MovingThingsPractice-MinSizeRel-06329eada19e9e86108c.json",
+					"name" : "04_MovingThingsPractice",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "04_Moving_Fir::@d9c831dfb220e29aef74",
+					"jsonFile" : "target-04_Moving_Fir-MinSizeRel-d40b1f81accb6a8673e4.json",
+					"name" : "04_Moving_Fir",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "05_Transform::@2e43785f2ee231391587",
+					"jsonFile" : "target-05_Transform-MinSizeRel-c05e067552d1cc071493.json",
+					"name" : "05_Transform",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "06_Graph::@0db87afa82badba48118",
+					"jsonFile" : "target-06_Graph-MinSizeRel-6600d5c333dd654ff434.json",
+					"name" : "06_Graph",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "07_PerspectiveViewport::@12620dc2193efa3fa4bd",
+					"jsonFile" : "target-07_PerspectiveViewport-MinSizeRel-aab3fe1dc60269ee36db.json",
+					"name" : "07_PerspectiveViewport",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "08_Toon_Example::@46dd60e10f4ef9e2a4e5",
+					"jsonFile" : "target-08_Toon_Example-MinSizeRel-b7283ff30dff747b1ec2.json",
+					"name" : "08_Toon_Example",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "09_Texture_Example::@ee3c6c0812cf20911e79",
+					"jsonFile" : "target-09_Texture_Example-MinSizeRel-a0c46c0019898f18ad9c.json",
+					"name" : "09_Texture_Example",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "09_Transparency_Example::@cf0e8b1aacd728a1403d",
+					"jsonFile" : "target-09_Transparency_Example-MinSizeRel-41e5627e406a7ecf192c.json",
+					"name" : "09_Transparency_Example",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "10_BezierSurface_Example::@6feabec8620a5a8f718e",
+					"jsonFile" : "target-10_BezierSurface_Example-MinSizeRel-0ba2cc1084ed2e06410d.json",
+					"name" : "10_BezierSurface_Example",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "11_SunEarthMoon_Example::@dc04e307d63d1917e37f",
+					"jsonFile" : "target-11_SunEarthMoon_Example-MinSizeRel-058fc1956cf8f0617a18.json",
+					"name" : "11_SunEarthMoon_Example",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "ALL_BUILD::@19cbcdf8865f09af2779",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-bdf8e9b001c2d7518757.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@ee3c6c0812cf20911e79",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-6a3b4e852c7d73081cec.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@cf0e8b1aacd728a1403d",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-6840be41d15870186818.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-38e58d312f2a465e3931.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "ALL_BUILD::@45c6925279c4ed29880e",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-91441a77a07c114e41fe.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@6feabec8620a5a8f718e",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-87b3d7a427ed9e2db654.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@a2debf4c769bac6e4e71",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-ada143d5eaa4505078a5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@dc04e307d63d1917e37f",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d14315ea520771ddf761.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@d3d796571283fbbc4b96",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-94dbbedb4fa3a060a97e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ALL_BUILD::@8132085bf3b90c3252db",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f86e17aecce505c0e091.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@305f0ccb70d0f204b17c",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-e25ca77c3f8bcc61874f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ALL_BUILD::@78f0ef91947189c333fb",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-3de4777c70543b776c58.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@d9c831dfb220e29aef74",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-b0753ac3f458cb9493c9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@0c512b40e2b970e1530a",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-09c130a30b49fb137d44.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "ALL_BUILD::@338aa4adcd6ca33e9b74",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-ffaf0f8744aedf90079e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@2e43785f2ee231391587",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-0829c6603d5dffb943d5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ALL_BUILD::@c7c7fb059fa7045ee7e6",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-63f49810e72766b32c16.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@0db87afa82badba48118",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-19ed6c8d62686994013f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "ALL_BUILD::@74ca6b3581f0d7366b1f",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-8f6bffd8b1f409d5bc46.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@12620dc2193efa3fa4bd",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f2bbaf5ffbb032a02c9a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "ALL_BUILD::@fa0cdaa9020ff8f602ac",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d7d1227f17efb117bc89.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@46dd60e10f4ef9e2a4e5",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-16cc80ab6891a16a726a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "CG1_Tools::@78f0ef91947189c333fb",
+					"jsonFile" : "target-CG1_Tools-MinSizeRel-bd3be03e6ed48039d1e4.json",
+					"name" : "CG1_Tools",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "COPY_RUNTIME_FILES::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-COPY_RUNTIME_FILES-MinSizeRel-8cfc5fb7a552ef452a12.json",
+					"name" : "COPY_RUNTIME_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "CVK_1_Minimal::@0c512b40e2b970e1530a",
+					"jsonFile" : "target-CVK_1_Minimal-MinSizeRel-b44ed093fff70b4a7e41.json",
+					"name" : "CVK_1_Minimal",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "Eigen_sources::@338aa4adcd6ca33e9b74",
+					"jsonFile" : "target-Eigen_sources-MinSizeRel-852a93fe8ba881537758.json",
+					"name" : "Eigen_sources",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RERUN_CMAKE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RERUN_CMAKE-MinSizeRel-c722fbbefa353c90096e.json",
+					"name" : "RERUN_CMAKE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "SimpleImage::@c7c7fb059fa7045ee7e6",
+					"jsonFile" : "target-SimpleImage-MinSizeRel-26bfed5a9ed5648f7866.json",
+					"name" : "SimpleImage",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-359c5f9808812ed52b50.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmake_sources::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmake_sources-MinSizeRel-e0f8f124ba1bd571bf0d.json",
+					"name" : "cmake_sources",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "glad::@74ca6b3581f0d7366b1f",
+					"jsonFile" : "target-glad-MinSizeRel-7f2592a533aacd1bb323.json",
+					"name" : "glad",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "glfw::@bae8f2c06706af8a0c0f",
+					"jsonFile" : "target-glfw-MinSizeRel-40ad48938f8e8b786e2f.json",
+					"name" : "glfw",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "shaders_sources::@8132085bf3b90c3252db",
+					"jsonFile" : "target-shaders_sources-MinSizeRel-6afd06210220efdcff64.json",
+					"name" : "shaders_sources",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "stb::@19cbcdf8865f09af2779",
+					"jsonFile" : "target-stb-MinSizeRel-5369f6aadae5a0898edd.json",
+					"name" : "stb",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "uninstall::@45c6925279c4ed29880e",
+					"jsonFile" : "target-uninstall-MinSizeRel-2b23cda2db5f546c729c.json",
+					"name" : "uninstall",
+					"projectIndex" : 19
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						21,
+						23
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-eedf46c1ec7bcbfb19a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						15,
+						35,
+						38,
+						40,
+						41
+					]
+				},
+				{
+					"build" : "02_Dragon_Fractal",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-02_Dragon_Fractal-RelWithDebInfo-325d7e7fc7968c07ceeb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "executables/02_Dragon_Fractal",
+					"targetIndexes" : 
+					[
+						0,
+						18
+					]
+				},
+				{
+					"build" : "03_LineClipping",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-03_LineClipping-RelWithDebInfo-451c56456b5db0311915.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "executables/03_LineClipping",
+					"targetIndexes" : 
+					[
+						1,
+						20
+					]
+				},
+				{
+					"build" : "04_MovingThingsPractice",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-04_MovingThingsPractice-RelWithDebInfo-342db7e3bd9f5fa86f47.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "executables/04_MovingThingsPractice",
+					"targetIndexes" : 
+					[
+						2,
+						22
+					]
+				},
+				{
+					"build" : "04_Moving_Fir",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-04_Moving_Fir-RelWithDebInfo-edfff4bf28d77834eda9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "executables/04_Moving_Fir",
+					"targetIndexes" : 
+					[
+						3,
+						24
+					]
+				},
+				{
+					"build" : "05_Transform",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-05_Transform-RelWithDebInfo-109de015440e76fabed1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "executables/05_Transform",
+					"targetIndexes" : 
+					[
+						4,
+						27
+					]
+				},
+				{
+					"build" : "06_Graph",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-06_Graph-RelWithDebInfo-e34cd20eb22535ec1317.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "executables/06_Graph",
+					"targetIndexes" : 
+					[
+						5,
+						29
+					]
+				},
+				{
+					"build" : "07_PerspectiveViewport",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-07_PerspectiveViewport-RelWithDebInfo-52a320cb095a26826174.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "executables/07_PerspectiveViewport",
+					"targetIndexes" : 
+					[
+						6,
+						31
+					]
+				},
+				{
+					"build" : "08_Toon_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-08_Toon_Example-RelWithDebInfo-ed52908e11ca49a471cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "executables/08_Toon_Example",
+					"targetIndexes" : 
+					[
+						7,
+						33
+					]
+				},
+				{
+					"build" : "09_Texture_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-09_Texture_Example-RelWithDebInfo-04b70311a91f1c168ab5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "executables/09_Texture_Example",
+					"targetIndexes" : 
+					[
+						8,
+						13
+					]
+				},
+				{
+					"build" : "09_Transparency_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-09_Transparency_Example-RelWithDebInfo-b9855e03ac2afddaa9ea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "executables/09_Transparency_Example",
+					"targetIndexes" : 
+					[
+						9,
+						14
+					]
+				},
+				{
+					"build" : "10_BezierSurface_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-10_BezierSurface_Example-RelWithDebInfo-6964324b3f5db2a465e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "executables/10_BezierSurface_Example",
+					"targetIndexes" : 
+					[
+						10,
+						17
+					]
+				},
+				{
+					"build" : "11_SunEarthMoon_Example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-11_SunEarthMoon_Example-RelWithDebInfo-4b08873f35d2769cb87b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "executables/11_SunEarthMoon_Example",
+					"targetIndexes" : 
+					[
+						11,
+						19
+					]
+				},
+				{
+					"build" : "shaders",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-shaders-RelWithDebInfo-0882ef1bce38e28637e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "shaders",
+					"targetIndexes" : 
+					[
+						21,
+						44
+					]
+				},
+				{
+					"build" : "CG1_Tools",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CG1_Tools-RelWithDebInfo-e1769eea931503b1cc5b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "D:/cvws2122/framework/libraries/CG1_Tools",
+					"targetIndexes" : 
+					[
+						23,
+						34
+					]
+				},
+				{
+					"build" : "CVK_1_Minimal",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CVK_1_Minimal-RelWithDebInfo-d1f951e8cc7e5495771d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "D:/cvws2122/framework/libraries/CVK_1_Minimal",
+					"targetIndexes" : 
+					[
+						25,
+						36
+					]
+				},
+				{
+					"build" : "Eigen",
+					"jsonFile" : "directory-Eigen-RelWithDebInfo-5888c18bee7b3ecfb547.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "D:/cvws2122/framework/libraries/Eigen",
+					"targetIndexes" : 
+					[
+						26,
+						37
+					]
+				},
+				{
+					"build" : "SimpleImage",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-SimpleImage-RelWithDebInfo-89d7d159678438791988.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 17,
+					"source" : "D:/cvws2122/framework/libraries/SimpleImage",
+					"targetIndexes" : 
+					[
+						28,
+						39
+					]
+				},
+				{
+					"build" : "glad",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-glad-RelWithDebInfo-0d8ecd2aff7aabf48c4a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 18,
+					"source" : "D:/cvws2122/framework/libraries/glad",
+					"targetIndexes" : 
+					[
+						30,
+						42
+					]
+				},
+				{
+					"build" : "glfw3",
+					"childIndexes" : 
+					[
+						20
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-glfw3-RelWithDebInfo-19ee97139fed7e7ca4e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 19,
+					"source" : "D:/cvws2122/framework/libraries/glfw3",
+					"targetIndexes" : 
+					[
+						16,
+						46
+					]
+				},
+				{
+					"build" : "glfw3/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-glfw3.src-RelWithDebInfo-205b31b495f0642beed0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 19,
+					"source" : "D:/cvws2122/framework/libraries/glfw3/src",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "glm",
+					"childIndexes" : 
+					[
+						22
+					],
+					"jsonFile" : "directory-glm-RelWithDebInfo-3269c632dd5fdd003d82.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 20,
+					"source" : "D:/cvws2122/framework/libraries/glm",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "glm/glm",
+					"jsonFile" : "directory-glm.glm-RelWithDebInfo-594c0ad98aacceb7accc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 20,
+					"source" : "D:/cvws2122/framework/libraries/glm/glm"
+				},
+				{
+					"build" : "stb",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-stb-RelWithDebInfo-6ef4e9082e270055413c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 21,
+					"source" : "D:/cvws2122/framework/libraries/stb",
+					"targetIndexes" : 
+					[
+						12,
+						45
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "src",
+					"targetIndexes" : 
+					[
+						15,
+						35,
+						38,
+						40,
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "02_Dragon_Fractal",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "03_LineClipping",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "04_MovingThingsPractice",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "04_Moving_Fir",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "05_Transform",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "06_Graph",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "07_PerspectiveViewport",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "08_Toon_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "09_Texture_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "09_Transparency_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "10_BezierSurface_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "11_SunEarthMoon_Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "SHADERS",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21,
+						44
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "CG1_Tools",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						23,
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "CVK_1_Minimal",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						25,
+						36
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "Eigen",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26,
+						37
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "SimpleImage",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						28,
+						39
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						30,
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19,
+						20
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16,
+						43,
+						46
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21,
+						22
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "stb",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						45
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "02_Dragon_Fractal::@a2debf4c769bac6e4e71",
+					"jsonFile" : "target-02_Dragon_Fractal-RelWithDebInfo-205d49b4735071c5ebd6.json",
+					"name" : "02_Dragon_Fractal",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "03_LineClipping::@d3d796571283fbbc4b96",
+					"jsonFile" : "target-03_LineClipping-RelWithDebInfo-18f85090a613e16fa431.json",
+					"name" : "03_LineClipping",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "04_MovingThingsPractice::@305f0ccb70d0f204b17c",
+					"jsonFile" : "target-04_MovingThingsPractice-RelWithDebInfo-f36f25e02d80d4beba14.json",
+					"name" : "04_MovingThingsPractice",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "04_Moving_Fir::@d9c831dfb220e29aef74",
+					"jsonFile" : "target-04_Moving_Fir-RelWithDebInfo-a0ddee5e000ade2eb582.json",
+					"name" : "04_Moving_Fir",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "05_Transform::@2e43785f2ee231391587",
+					"jsonFile" : "target-05_Transform-RelWithDebInfo-2a2a94ab967fa0220fe6.json",
+					"name" : "05_Transform",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "06_Graph::@0db87afa82badba48118",
+					"jsonFile" : "target-06_Graph-RelWithDebInfo-f4fee62517811e13f6d7.json",
+					"name" : "06_Graph",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "07_PerspectiveViewport::@12620dc2193efa3fa4bd",
+					"jsonFile" : "target-07_PerspectiveViewport-RelWithDebInfo-ccf05eb8caa757f6d8f7.json",
+					"name" : "07_PerspectiveViewport",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "08_Toon_Example::@46dd60e10f4ef9e2a4e5",
+					"jsonFile" : "target-08_Toon_Example-RelWithDebInfo-d743ea334e671f35769c.json",
+					"name" : "08_Toon_Example",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "09_Texture_Example::@ee3c6c0812cf20911e79",
+					"jsonFile" : "target-09_Texture_Example-RelWithDebInfo-6c5d9941e6939041246e.json",
+					"name" : "09_Texture_Example",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "09_Transparency_Example::@cf0e8b1aacd728a1403d",
+					"jsonFile" : "target-09_Transparency_Example-RelWithDebInfo-cf364289fc865eed3401.json",
+					"name" : "09_Transparency_Example",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "10_BezierSurface_Example::@6feabec8620a5a8f718e",
+					"jsonFile" : "target-10_BezierSurface_Example-RelWithDebInfo-c840c1368798a32f4236.json",
+					"name" : "10_BezierSurface_Example",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "11_SunEarthMoon_Example::@dc04e307d63d1917e37f",
+					"jsonFile" : "target-11_SunEarthMoon_Example-RelWithDebInfo-9ad0038dd33d7c2fae2b.json",
+					"name" : "11_SunEarthMoon_Example",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "ALL_BUILD::@19cbcdf8865f09af2779",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-bdf8e9b001c2d7518757.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@ee3c6c0812cf20911e79",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-6a3b4e852c7d73081cec.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@cf0e8b1aacd728a1403d",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-6840be41d15870186818.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-38e58d312f2a465e3931.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "ALL_BUILD::@45c6925279c4ed29880e",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-91441a77a07c114e41fe.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@6feabec8620a5a8f718e",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-87b3d7a427ed9e2db654.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@a2debf4c769bac6e4e71",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-ada143d5eaa4505078a5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@dc04e307d63d1917e37f",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d14315ea520771ddf761.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@d3d796571283fbbc4b96",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-94dbbedb4fa3a060a97e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ALL_BUILD::@8132085bf3b90c3252db",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f86e17aecce505c0e091.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@305f0ccb70d0f204b17c",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-e25ca77c3f8bcc61874f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ALL_BUILD::@78f0ef91947189c333fb",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-3de4777c70543b776c58.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@d9c831dfb220e29aef74",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-b0753ac3f458cb9493c9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@0c512b40e2b970e1530a",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-09c130a30b49fb137d44.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "ALL_BUILD::@338aa4adcd6ca33e9b74",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-ffaf0f8744aedf90079e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@2e43785f2ee231391587",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-0829c6603d5dffb943d5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ALL_BUILD::@c7c7fb059fa7045ee7e6",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-63f49810e72766b32c16.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@0db87afa82badba48118",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-19ed6c8d62686994013f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "ALL_BUILD::@74ca6b3581f0d7366b1f",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-8f6bffd8b1f409d5bc46.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@12620dc2193efa3fa4bd",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f2bbaf5ffbb032a02c9a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "ALL_BUILD::@fa0cdaa9020ff8f602ac",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d7d1227f17efb117bc89.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@46dd60e10f4ef9e2a4e5",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-16cc80ab6891a16a726a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "CG1_Tools::@78f0ef91947189c333fb",
+					"jsonFile" : "target-CG1_Tools-RelWithDebInfo-660eeb69eaf780ee0cb3.json",
+					"name" : "CG1_Tools",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "COPY_RUNTIME_FILES::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-COPY_RUNTIME_FILES-RelWithDebInfo-8cfc5fb7a552ef452a12.json",
+					"name" : "COPY_RUNTIME_FILES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "CVK_1_Minimal::@0c512b40e2b970e1530a",
+					"jsonFile" : "target-CVK_1_Minimal-RelWithDebInfo-caf403c4a0acac539191.json",
+					"name" : "CVK_1_Minimal",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "Eigen_sources::@338aa4adcd6ca33e9b74",
+					"jsonFile" : "target-Eigen_sources-RelWithDebInfo-852a93fe8ba881537758.json",
+					"name" : "Eigen_sources",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RERUN_CMAKE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RERUN_CMAKE-RelWithDebInfo-c722fbbefa353c90096e.json",
+					"name" : "RERUN_CMAKE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "SimpleImage::@c7c7fb059fa7045ee7e6",
+					"jsonFile" : "target-SimpleImage-RelWithDebInfo-b9571c4873b76dc46cdd.json",
+					"name" : "SimpleImage",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-359c5f9808812ed52b50.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmake_sources::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmake_sources-RelWithDebInfo-e0f8f124ba1bd571bf0d.json",
+					"name" : "cmake_sources",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "glad::@74ca6b3581f0d7366b1f",
+					"jsonFile" : "target-glad-RelWithDebInfo-2547ee659c22b4d4e8c6.json",
+					"name" : "glad",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "glfw::@bae8f2c06706af8a0c0f",
+					"jsonFile" : "target-glfw-RelWithDebInfo-4650ca345dc63009693c.json",
+					"name" : "glfw",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "shaders_sources::@8132085bf3b90c3252db",
+					"jsonFile" : "target-shaders_sources-RelWithDebInfo-6afd06210220efdcff64.json",
+					"name" : "shaders_sources",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "stb::@19cbcdf8865f09af2779",
+					"jsonFile" : "target-stb-RelWithDebInfo-a8e0631874689d92c2a3.json",
+					"name" : "stb",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "uninstall::@45c6925279c4ed29880e",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-2b23cda2db5f546c729c.json",
+					"name" : "uninstall",
+					"projectIndex" : 19
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/cvws2122/framework/CG_allgroups/src/build",
+		"source" : "D:/cvws2122/framework/CG_allgroups/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

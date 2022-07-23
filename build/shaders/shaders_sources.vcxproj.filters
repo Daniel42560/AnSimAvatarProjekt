@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\cvws2122\framework\CG_allgroups\src\shaders\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\cvws2122\framework\CG_allgroups\src\shaders\04_Moving_Fir\fir.vert">
+      <Filter>04_Moving_Fir\Vertex-Shaders</Filter>
+    </None>
+    <None Include="D:\cvws2122\framework\CG_allgroups\src\shaders\05_Transform\minimal.vert">
+      <Filter>05_Transform\Vertex-Shaders</Filter>
+    </None>
+    <None Include="D:\cvws2122\framework\CG_allgroups\src\shaders\06_Graph\graph.vert">
+      <Filter>06_Graph\Vertex-Shaders</Filter>
+    </None>
+    <None Include="D:\cvws2122\framework\CG_allgroups\src\shaders\07_PerspectiveViewport\depth.vert">
+      <Filter>07_PerspectiveViewport\Vertex-Shaders</Filter>
+    </None>
+    <None Include="D:\cvws2122\framework\CG_allgroups\src\shaders\08_Toon_Example\toon.vert">
+      <Filter>08_Toon_Example\Vertex-Shaders</Filter>
+    </None>
+    <None Include="D:\cvws2122\framework\CG_allgroups\src\shaders\09_TexturedCube\cube.vert">
+      <Filter>09_TexturedCube\Vertex-Shaders</Filter>
+    </None>
+    <None Include="D:\cvws2122\framework\CG_allgroups\src\shaders\09_Transparency\minimal.vert">
+      <Filter>09_Transparency\Vertex-Shaders</Filter>
+    </None>
+    <None Include="D:\cvws2122\framework\CG_allgroups\src\shaders\10_BezierSurface\patch.vert">
+      <Filter>10_BezierSurface\Vertex-Shaders</Filter>
+    </None>
+    <None Include="D:\cvws2122\framework\CG_allgroups\src\shaders\11_Hierarchy\phong.vert">
+      <Filter>11_Hierarchy\Vertex-Shaders</Filter>
+    </None>
+    <None Include="D:\cvws2122\framework\CG_allgroups\src\shaders\04_Moving_Fir\fir.frag">
+      <Filter>04_Moving_Fir\Fragment-Shaders</Filter>
+    </None>
+    <None Include="D:\cvws2122\framework\CG_allgroups\src\shaders\05_Transform\minimal.frag">
+      <Filter>05_Transform\Fragment-Shaders</Filter>
+    </None>
+    <None Include="D:\cvws2122\framework\CG_allgroups\src\shaders\06_Graph\graph.frag">
+      <Filter>06_Graph\Fragment-Shaders</Filter>
+    </None>
+    <None Include="D:\cvws2122\framework\CG_allgroups\src\shaders\07_PerspectiveViewport\depth.frag">
+      <Filter>07_PerspectiveViewport\Fragment-Shaders</Filter>
+    </None>
+    <None Include="D:\cvws2122\framework\CG_allgroups\src\shaders\08_Toon_Example\toon.frag">
+      <Filter>08_Toon_Example\Fragment-Shaders</Filter>
+    </None>
+    <None Include="D:\cvws2122\framework\CG_allgroups\src\shaders\09_TexturedCube\cube.frag">
+      <Filter>09_TexturedCube\Fragment-Shaders</Filter>
+    </None>
+    <None Include="D:\cvws2122\framework\CG_allgroups\src\shaders\09_Transparency\minimal.frag">
+      <Filter>09_Transparency\Fragment-Shaders</Filter>
+    </None>
+    <None Include="D:\cvws2122\framework\CG_allgroups\src\shaders\10_BezierSurface\patch.frag">
+      <Filter>10_BezierSurface\Fragment-Shaders</Filter>
+    </None>
+    <None Include="D:\cvws2122\framework\CG_allgroups\src\shaders\11_Hierarchy\phong.frag">
+      <Filter>11_Hierarchy\Fragment-Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="04_Moving_Fir">
+      <UniqueIdentifier>{0CA78870-850A-386F-BD05-D4EAE920624A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Moving_Fir\Fragment-Shaders">
+      <UniqueIdentifier>{B2873CDA-2B32-3060-8E73-339047CF49E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Moving_Fir\Vertex-Shaders">
+      <UniqueIdentifier>{3C063C1D-E1A3-37E9-8C4B-136F38C49279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Transform">
+      <UniqueIdentifier>{EF8CA93D-54DB-37D7-B2F9-97EBECB1F771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Transform\Fragment-Shaders">
+      <UniqueIdentifier>{F0822C79-87DA-3280-B118-746050269B98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Transform\Vertex-Shaders">
+      <UniqueIdentifier>{D25036E1-6AF7-3D5D-A57C-237B70D42A1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Graph">
+      <UniqueIdentifier>{5B9FEC32-0B4F-3235-A915-C26AAD6CB7A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Graph\Fragment-Shaders">
+      <UniqueIdentifier>{A27F68FA-F9E8-327E-A039-BFC9F119DCE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Graph\Vertex-Shaders">
+      <UniqueIdentifier>{3FCBE351-C3CD-36D5-9FCA-0CAAB777B247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07_PerspectiveViewport">
+      <UniqueIdentifier>{1C3FF8DF-E7DE-36CF-9130-0D046D7164A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07_PerspectiveViewport\Fragment-Shaders">
+      <UniqueIdentifier>{3F9B813B-0216-30D5-A44E-661B7A2CC5C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07_PerspectiveViewport\Vertex-Shaders">
+      <UniqueIdentifier>{D55CBBED-9F5D-3963-AE0F-351F842ABE51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08_Toon_Example">
+      <UniqueIdentifier>{1A2441F5-79C0-3570-AAF0-24D8214D957C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08_Toon_Example\Fragment-Shaders">
+      <UniqueIdentifier>{647CF83F-A400-3F85-B057-3375A75E17A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08_Toon_Example\Vertex-Shaders">
+      <UniqueIdentifier>{24CCE674-0615-3960-9013-BF616B17F069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09_TexturedCube">
+      <UniqueIdentifier>{07F231DF-83A8-33BF-BE60-97B780C68797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09_TexturedCube\Fragment-Shaders">
+      <UniqueIdentifier>{BDBE2FAC-0D7A-307C-817C-CD4CB9B6B8E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09_TexturedCube\Vertex-Shaders">
+      <UniqueIdentifier>{C6688056-6E31-3DD4-830E-3F2BA6059250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09_Transparency">
+      <UniqueIdentifier>{6785CA98-ACCC-348A-97DB-07AFBDE1818A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09_Transparency\Fragment-Shaders">
+      <UniqueIdentifier>{8F253625-9BF4-3BE3-9DF8-5B23992342D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09_Transparency\Vertex-Shaders">
+      <UniqueIdentifier>{312DA229-0A36-3103-A244-04C3630C9A61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10_BezierSurface">
+      <UniqueIdentifier>{6166C417-ADE9-39F4-8194-408F120C4185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10_BezierSurface\Fragment-Shaders">
+      <UniqueIdentifier>{48F5FB0A-D991-36DE-B338-D7C64F62084B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10_BezierSurface\Vertex-Shaders">
+      <UniqueIdentifier>{B82550AD-5783-31A4-BB69-68A40175468A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11_Hierarchy">
+      <UniqueIdentifier>{8F59E007-FE0C-3E55-93EE-3A124518D566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11_Hierarchy\Fragment-Shaders">
+      <UniqueIdentifier>{DE95E504-49CD-32B0-BE45-ADCB1991CDEB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11_Hierarchy\Vertex-Shaders">
+      <UniqueIdentifier>{75D6602E-EB7C-3B92-AF6E-BF2317DC68F3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{06C4D366-FF0D-39CB-8573-BD5490363368}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>04_MovingThingsPractice</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/cvws2122/framework/CG_allgroups/src/build/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\cvws2122\framework\CG_allgroups\src\build\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">04_MovingThingsPractice.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">04_MovingThingsPractice</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/cvws2122/framework/CG_allgroups/src/build/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\cvws2122\framework\CG_allgroups\src\build\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">04_MovingThingsPractice.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">04_MovingThingsPractice</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/cvws2122/framework/CG_allgroups/src/build/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\cvws2122\framework\CG_allgroups\src\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">04_MovingThingsPractice.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">04_MovingThingsPractice</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/cvws2122/framework/CG_allgroups/src/build/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\cvws2122\framework\CG_allgroups\src\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">04_MovingThingsPractice.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">04_MovingThingsPractice</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\cvws2122\framework\libraries\glm\glm\..;D:\cvws2122\framework\libraries\glfw3\include;D:\cvws2122\framework\libraries\CVK_1_Minimal\include;D:\cvws2122\framework\libraries\glad\include;D:\cvws2122\framework\libraries\stb\include;D:\cvws2122\framework\libraries\CG1_Tools\include;D:\cvws2122\framework\libraries\SimpleImage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4201</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;GLM_ENABLE_EXPERIMENTAL;GLM_FORCE_RADIANS;GLFW_INCLUDE_NONE;RESOURCES_PATH="D:/cvws2122/framework/CG_allgroups/src/../../resources";SHADERS_PATH="D:/cvws2122/framework/CG_allgroups/src/shaders";CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;GLM_ENABLE_EXPERIMENTAL;GLM_FORCE_RADIANS;GLFW_INCLUDE_NONE;RESOURCES_PATH=\"D:/cvws2122/framework/CG_allgroups/src/../../resources\";SHADERS_PATH=\"D:/cvws2122/framework/CG_allgroups/src/shaders\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\cvws2122\framework\libraries\glm\glm\..;D:\cvws2122\framework\libraries\glfw3\include;D:\cvws2122\framework\libraries\CVK_1_Minimal\include;D:\cvws2122\framework\libraries\glad\include;D:\cvws2122\framework\libraries\stb\include;D:\cvws2122\framework\libraries\CG1_Tools\include;D:\cvws2122\framework\libraries\SimpleImage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\cvws2122\framework\libraries\glm\glm\..;D:\cvws2122\framework\libraries\glfw3\include;D:\cvws2122\framework\libraries\CVK_1_Minimal\include;D:\cvws2122\framework\libraries\glad\include;D:\cvws2122\framework\libraries\stb\include;D:\cvws2122\framework\libraries\CG1_Tools\include;D:\cvws2122\framework\libraries\SimpleImage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;..\lib\glfw3-d.lib;..\lib\CVK_1_Minimal-d.lib;..\lib\CG1_Tools-d.lib;..\lib\SimpleImage-d.lib;..\lib\CVK_1_Minimal-d.lib;..\lib\glad-d.lib;..\lib\stb-d.lib;opengl32.lib;..\lib\glfw3-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/cvws2122/framework/CG_allgroups/src/build/lib/04_MovingThingsPractice.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/cvws2122/framework/CG_allgroups/src/build/bin/04_MovingThingsPractice.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\cvws2122\framework\libraries\glm\glm\..;D:\cvws2122\framework\libraries\glfw3\include;D:\cvws2122\framework\libraries\CVK_1_Minimal\include;D:\cvws2122\framework\libraries\glad\include;D:\cvws2122\framework\libraries\stb\include;D:\cvws2122\framework\libraries\CG1_Tools\include;D:\cvws2122\framework\libraries\SimpleImage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4201</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;GLM_ENABLE_EXPERIMENTAL;GLM_FORCE_RADIANS;GLFW_INCLUDE_NONE;RESOURCES_PATH="D:/cvws2122/framework/CG_allgroups/src/../../resources";SHADERS_PATH="D:/cvws2122/framework/CG_allgroups/src/shaders";CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;GLM_ENABLE_EXPERIMENTAL;GLM_FORCE_RADIANS;GLFW_INCLUDE_NONE;RESOURCES_PATH=\"D:/cvws2122/framework/CG_allgroups/src/../../resources\";SHADERS_PATH=\"D:/cvws2122/framework/CG_allgroups/src/shaders\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\cvws2122\framework\libraries\glm\glm\..;D:\cvws2122\framework\libraries\glfw3\include;D:\cvws2122\framework\libraries\CVK_1_Minimal\include;D:\cvws2122\framework\libraries\glad\include;D:\cvws2122\framework\libraries\stb\include;D:\cvws2122\framework\libraries\CG1_Tools\include;D:\cvws2122\framework\libraries\SimpleImage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\cvws2122\framework\libraries\glm\glm\..;D:\cvws2122\framework\libraries\glfw3\include;D:\cvws2122\framework\libraries\CVK_1_Minimal\include;D:\cvws2122\framework\libraries\glad\include;D:\cvws2122\framework\libraries\stb\include;D:\cvws2122\framework\libraries\CG1_Tools\include;D:\cvws2122\framework\libraries\SimpleImage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;..\lib\glfw3.lib;..\lib\CVK_1_Minimal.lib;..\lib\CG1_Tools.lib;..\lib\SimpleImage.lib;..\lib\CVK_1_Minimal.lib;..\lib\glad.lib;..\lib\stb.lib;opengl32.lib;..\lib\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/cvws2122/framework/CG_allgroups/src/build/lib/04_MovingThingsPractice.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/cvws2122/framework/CG_allgroups/src/build/bin/04_MovingThingsPractice.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\cvws2122\framework\libraries\glm\glm\..;D:\cvws2122\framework\libraries\glfw3\include;D:\cvws2122\framework\libraries\CVK_1_Minimal\include;D:\cvws2122\framework\libraries\glad\include;D:\cvws2122\framework\libraries\stb\include;D:\cvws2122\framework\libraries\CG1_Tools\include;D:\cvws2122\framework\libraries\SimpleImage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4201</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;GLM_ENABLE_EXPERIMENTAL;GLM_FORCE_RADIANS;GLFW_INCLUDE_NONE;RESOURCES_PATH="D:/cvws2122/framework/CG_allgroups/src/../../resources";SHADERS_PATH="D:/cvws2122/framework/CG_allgroups/src/shaders";CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;GLM_ENABLE_EXPERIMENTAL;GLM_FORCE_RADIANS;GLFW_INCLUDE_NONE;RESOURCES_PATH=\"D:/cvws2122/framework/CG_allgroups/src/../../resources\";SHADERS_PATH=\"D:/cvws2122/framework/CG_allgroups/src/shaders\";CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\cvws2122\framework\libraries\glm\glm\..;D:\cvws2122\framework\libraries\glfw3\include;D:\cvws2122\framework\libraries\CVK_1_Minimal\include;D:\cvws2122\framework\libraries\glad\include;D:\cvws2122\framework\libraries\stb\include;D:\cvws2122\framework\libraries\CG1_Tools\include;D:\cvws2122\framework\libraries\SimpleImage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\cvws2122\framework\libraries\glm\glm\..;D:\cvws2122\framework\libraries\glfw3\include;D:\cvws2122\framework\libraries\CVK_1_Minimal\include;D:\cvws2122\framework\libraries\glad\include;D:\cvws2122\framework\libraries\stb\include;D:\cvws2122\framework\libraries\CG1_Tools\include;D:\cvws2122\framework\libraries\SimpleImage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;..\lib\MinSizeRel\glfw3.lib;..\lib\MinSizeRel\CVK_1_Minimal.lib;..\lib\MinSizeRel\CG1_Tools.lib;..\lib\MinSizeRel\SimpleImage.lib;..\lib\MinSizeRel\CVK_1_Minimal.lib;..\lib\MinSizeRel\glad.lib;..\lib\MinSizeRel\stb.lib;opengl32.lib;..\lib\MinSizeRel\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/cvws2122/framework/CG_allgroups/src/build/bin/MinSizeRel/04_MovingThingsPractice.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/cvws2122/framework/CG_allgroups/src/build/bin/MinSizeRel/04_MovingThingsPractice.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\cvws2122\framework\libraries\glm\glm\..;D:\cvws2122\framework\libraries\glfw3\include;D:\cvws2122\framework\libraries\CVK_1_Minimal\include;D:\cvws2122\framework\libraries\glad\include;D:\cvws2122\framework\libraries\stb\include;D:\cvws2122\framework\libraries\CG1_Tools\include;D:\cvws2122\framework\libraries\SimpleImage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4201</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;GLM_ENABLE_EXPERIMENTAL;GLM_FORCE_RADIANS;GLFW_INCLUDE_NONE;RESOURCES_PATH="D:/cvws2122/framework/CG_allgroups/src/../../resources";SHADERS_PATH="D:/cvws2122/framework/CG_allgroups/src/shaders";CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;GLM_ENABLE_EXPERIMENTAL;GLM_FORCE_RADIANS;GLFW_INCLUDE_NONE;RESOURCES_PATH=\"D:/cvws2122/framework/CG_allgroups/src/../../resources\";SHADERS_PATH=\"D:/cvws2122/framework/CG_allgroups/src/shaders\";CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\cvws2122\framework\libraries\glm\glm\..;D:\cvws2122\framework\libraries\glfw3\include;D:\cvws2122\framework\libraries\CVK_1_Minimal\include;D:\cvws2122\framework\libraries\glad\include;D:\cvws2122\framework\libraries\stb\include;D:\cvws2122\framework\libraries\CG1_Tools\include;D:\cvws2122\framework\libraries\SimpleImage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\cvws2122\framework\libraries\glm\glm\..;D:\cvws2122\framework\libraries\glfw3\include;D:\cvws2122\framework\libraries\CVK_1_Minimal\include;D:\cvws2122\framework\libraries\glad\include;D:\cvws2122\framework\libraries\stb\include;D:\cvws2122\framework\libraries\CG1_Tools\include;D:\cvws2122\framework\libraries\SimpleImage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;..\lib\RelWithDebInfo\glfw3.lib;..\lib\RelWithDebInfo\CVK_1_Minimal.lib;..\lib\RelWithDebInfo\CG1_Tools.lib;..\lib\RelWithDebInfo\SimpleImage.lib;..\lib\RelWithDebInfo\CVK_1_Minimal.lib;..\lib\RelWithDebInfo\glad.lib;..\lib\RelWithDebInfo\stb.lib;opengl32.lib;..\lib\RelWithDebInfo\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/cvws2122/framework/CG_allgroups/src/build/bin/RelWithDebInfo/04_MovingThingsPractice.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/cvws2122/framework/CG_allgroups/src/build/bin/RelWithDebInfo/04_MovingThingsPractice.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\cvws2122\framework\CG_allgroups\src\executables\04_MovingThingsPractice\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/cvws2122/framework/CG_allgroups/src/executables/04_MovingThingsPractice/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/cvws2122/framework/CG_allgroups/src -BD:/cvws2122/framework/CG_allgroups/src/build --check-stamp-file D:/cvws2122/framework/CG_allgroups/src/build/04_MovingThingsPractice/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\cvws2122\framework\cmake\DefaultExecutable.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\cvws2122\framework\CG_allgroups\src\build\04_MovingThingsPractice\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/cvws2122/framework/CG_allgroups/src/executables/04_MovingThingsPractice/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/cvws2122/framework/CG_allgroups/src -BD:/cvws2122/framework/CG_allgroups/src/build --check-stamp-file D:/cvws2122/framework/CG_allgroups/src/build/04_MovingThingsPractice/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\cvws2122\framework\cmake\DefaultExecutable.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\cvws2122\framework\CG_allgroups\src\build\04_MovingThingsPractice\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/cvws2122/framework/CG_allgroups/src/executables/04_MovingThingsPractice/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/cvws2122/framework/CG_allgroups/src -BD:/cvws2122/framework/CG_allgroups/src/build --check-stamp-file D:/cvws2122/framework/CG_allgroups/src/build/04_MovingThingsPractice/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\cvws2122\framework\cmake\DefaultExecutable.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\cvws2122\framework\CG_allgroups\src\build\04_MovingThingsPractice\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/cvws2122/framework/CG_allgroups/src/executables/04_MovingThingsPractice/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/cvws2122/framework/CG_allgroups/src -BD:/cvws2122/framework/CG_allgroups/src/build --check-stamp-file D:/cvws2122/framework/CG_allgroups/src/build/04_MovingThingsPractice/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\cvws2122\framework\cmake\DefaultExecutable.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\cvws2122\framework\CG_allgroups\src\build\04_MovingThingsPractice\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\cvws2122\framework\CG_allgroups\src\executables\04_MovingThingsPractice\Particles.cpp" />
+    <ClCompile Include="D:\cvws2122\framework\CG_allgroups\src\executables\04_MovingThingsPractice\main.cpp" />
+    <ClInclude Include="D:\cvws2122\framework\CG_allgroups\src\executables\04_MovingThingsPractice\Particles.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\ZERO_CHECK.vcxproj">
+      <Project>{C0EAAE8C-E101-31D7-872F-BD2E738B5BF6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\CG1_Tools\CG1_Tools.vcxproj">
+      <Project>{77BDBE25-6EA7-3F8C-BA8A-EA3EF0494903}</Project>
+      <Name>CG1_Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\COPY_RUNTIME_FILES.vcxproj">
+      <Project>{93775324-D2C7-3E02-B937-8A952C52CC8D}</Project>
+      <Name>COPY_RUNTIME_FILES</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\CVK_1_Minimal\CVK_1_Minimal.vcxproj">
+      <Project>{E7D7A1F5-4EE3-3ABA-9E26-0F3E0CC8A92F}</Project>
+      <Name>CVK_1_Minimal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\SimpleImage\SimpleImage.vcxproj">
+      <Project>{D82FE012-5B70-3E07-B68D-1FA36B5FA59F}</Project>
+      <Name>SimpleImage</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\glad\glad.vcxproj">
+      <Project>{3C290C67-3FDB-32E3-91B0-727AE6408BB4}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\glfw3\src\glfw.vcxproj">
+      <Project>{3AA48B37-1737-34FE-B31F-CA888F401777}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cvws2122\framework\CG_allgroups\src\build\stb\stb.vcxproj">
+      <Project>{806B9A58-BAC3-3C2F-A579-F435F8724772}</Project>
+      <Name>stb</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
